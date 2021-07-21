@@ -1,0 +1,7 @@
+DataFrame
+    1. df["element"] : accessing key of dataframe
+    2. df.loc[index] : accessing only the rows of the dataframe.
+    3. df[[rows], [columns]] : accessing many elements from rows and columns.
+    4. index = pd.MultiIndex.from_tuples(
+        [(x,y),(x,y),(x,y)]
+        )
