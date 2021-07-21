@@ -1,7 +1,15 @@
-DataFrame
+1. Creating a DataFrame
     1. df["element"] : accessing key of dataframe
     2. df.loc[index] : accessing only the rows of the dataframe.
     3. df[[rows], [columns]] : accessing many elements from rows and columns.
     4. index = pd.MultiIndex.from_tuples(
         [(x,y),(x,y),(x,y)]
         )
+        
+2. Subset Observations
+    1. df[conditional statement like df.length < 8]
+    2. conditional statement : df.c === df['c']
+    3. df.drop_duplicates() 
+        Parameters
+        1. inplace=True = applies changes to original df. Not used that often.
+        2. keep='first' or 'last' = keeps first or last row.
